@@ -1,5 +1,5 @@
 #Base image
-FROM Ubuntu
+FROM ubuntu
 
 #Do Image configuration
 RUN /bin/bash -c 'echo This is Test'
