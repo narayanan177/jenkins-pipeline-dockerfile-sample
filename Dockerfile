@@ -11,5 +11,5 @@ ADD *.html /www-data
 
 EXPOSE 80
 CMD ["nginx"]
-ENV myCustomEnvVar ="this is sample for Jenkins Docker"
-ENV otherEnvVar="this is also a sample1"
+
+docker tag ubuntu-my-nginx-image-1 http://35.200.142.46:5000/ubuntu-my-nginx-image-1
